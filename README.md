@@ -1,2 +1,3 @@
-# IconEditText
-Android library to display an EditText with an Icon beside it.
+# IconEditText for Android
+
+IconEditText is an Android View that displays an `ImageView` (icon) and `EditText` (input) together for `Android 4.0+`.
