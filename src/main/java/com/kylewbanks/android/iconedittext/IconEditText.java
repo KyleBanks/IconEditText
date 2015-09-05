@@ -160,4 +160,22 @@ public class IconEditText extends LinearLayout {
         return _editText.getText();
     }
 
+    /**
+     * Returns the underlying EditText.
+     *
+     * @return
+     */
+    public EditText getEditText() {
+        return _editText;
+    }
+
+    /**
+     * Returns the underlying ImageView displaying the icon.
+     *
+     * @return
+     */
+    public ImageView getImageView() {
+        return _icon;
+    }
+
 }
