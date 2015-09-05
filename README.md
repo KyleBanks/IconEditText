@@ -26,7 +26,7 @@ After adding the library, you can add an `IconEditText` like so:
       widget:hint="@string/username"
       widget:iconSrc="@drawable/username_icon" />
 
-</LinearLayout
+</LinearLayout>
 ```
 #### Options
 
