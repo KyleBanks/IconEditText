@@ -1,6 +1,6 @@
 # IconEditText for Android
 
-`IconEditText` is an Android View that displays an `ImageView` and `EditText` together, compatible with `Android 4.0+`.
+`IconEditText` provides a reusable view for displaying an `ImageView` with an `EditText` for `Android 4.0 +`.
 
 <p style="text-align: center">
   <img src="https://s3.amazonaws.com/kylewbanks/IconEditText/example.png"/>
