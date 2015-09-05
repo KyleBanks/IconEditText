@@ -12,6 +12,7 @@ Using the `IconEditText` is easy enough, just clone the repo and <a href="https:
 
 After adding the library, you can add an `IconEditText` like so:
 
+### XML
 ```xml
 <!-- Note the declaration of the `widget` namespace. -->
 <LinearLayout 
@@ -27,14 +28,34 @@ After adding the library, you can add an `IconEditText` like so:
 
 </LinearLayout
 ```
-
-### Options
+#### Options
 
 The `IconEditText` currently supports the following properties:
 
 - isPassword `{Boolean}`: If true, will mask the EditText's input.
 - hint `{String}`: The hint text to display, if any.
 - iconSrc `{Drawable}`: The source of the icon image to display.
+
+### Java
+
+From Java, you can reference the `IconEditText` like any other view. For example, from an `Activity`:
+
+```java
+IconEditText iconEditText = (IconEditText) findViewById(...);
+```
+
+You can access the underlying `EditText` and `ImageView` like so:
+
+```java
+EditText editText = iconEditText.getEditText();
+ImageView imageView = iconEditText.getImageView();
+```
+
+There is also a convenience method for accessing the `EditText`'s `Editable`:
+
+```java
+Editable editable = iconEditText.getText();
+```
 
 ## Author
 
